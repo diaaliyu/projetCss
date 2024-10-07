@@ -1,0 +1,92 @@
+img{
+     width: 250px;
+     height: 250px;
+     border-radius:50 px solid black;
+     margin-right: 25px;
+     margin-left: 25px;
+}
+.container{
+    margin-top: auto;
+}
+ .k1,.y1{
+    display:inline-block;
+    text-decoration: none;
+}
+ .k2,.y2{
+    display:inline-block;
+    text-decoration: none;
+}
+h4{
+    font-style: italic;
+}
+h2{
+    color:white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+    font-style: italic;
+    color: aqua;
+    border:dotted;
+    padding-left: 150px;
+    padding-right: 90px;
+}
+body{
+    background-color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: wh;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    }
+    li {
+        float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            }
+            li a:hover {
+                background-color: #111111;
+                }
+                .f{
+                    text-align: center;
+                    text-decoration: none;
+                }
+                .myCv{
+                    color: blueviolet;
+                }
+                .container {
+                    display: inline-block;
+                    cursor: pointer;
+                  }
+                  .bar1, .bar2, .bar3 {
+                    width: 35px;
+                    height: 5px;
+                    background-color: #333;
+                    margin: 6px 0;
+                    transition: 0.4s;
+                  }
+                  .change .bar1 {
+                    transform: translate(0, 11px) rotate(-45deg);
+                  }
+                  
+                  .change .bar2 {opacity: 0;}
+                  
+                  .change .bar3 {
+                    transform: translate(0, -11px) rotate(45deg);
+                  }
+                  
+                
